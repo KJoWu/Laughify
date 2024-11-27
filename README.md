@@ -1,7 +1,7 @@
 # RichLaughify™ - Hackathon Landing Page
 
 ## Description
-This is a **landing page** for a fictional **mobile app** created for a hackathon. It humorously "teaches" you how to laugh like a billionaire. The app promises to help you master elite laughs for success, wealth, and social dominance (allegedly).
+This is a **landing page** for a **mobile app** created for a hackathon. It humorously "teaches" you how to laugh like a billionaire. The app promises to help you master elite laughs for success, wealth, and social dominance (allegedly).
 
 
 ## Technologies Used
