@@ -166,7 +166,7 @@ function App() {
           <div className="text-center mb-12">
             <h2 className="text-5xl font-bold">Testimonials</h2>
             <p className="text-xl text-gray-600 mt-4">
-            At RichLaughify™, we salute your journey to greatness—hear from the world’s newest laughter elites, whose lives have been forever transformed by their non-plebic, elite-level laughs
+              At RichLaughify™, we salute your journey to greatness—hear from the world’s newest laughter elites, whose lives have been forever transformed by their non-plebic, elite-level laughs
             </p>
           </div>
           <div className="flex flex-wrap justify-center">
@@ -186,7 +186,7 @@ function App() {
                   "Before RichLaughify™, I would cry and consult myself. Until my internet works thatn I would laugh and..."
               },
 
-              
+
               {
                 name: "Chad 'Crypto King' Ethereum",
                 role: "Crypto Evangelist and Blockchain Enthusiast",
@@ -245,12 +245,11 @@ function App() {
             The app, the website and the was created purely for FUNZIES by <a href="https://kimberlywu.com" className="text-yellow-500">Kimberly Wu</a>.
           </p>
 
-          {/* Serious Yet Funny Disclaimer */}
           <h2 className="text-lg font-semibold text-yellow-400">
             DISCLAIMER:
           </h2>
           <p className="text-gray-400 mt-2 max-w-6xl mx-auto">
-            RichLaughify™ provides you with the tools to laugh like you’re on top of the world, but let’s be clear: your laugh may not instantly make you rich. Your bank account balance will remain unaffected. However, your social dominance and ability to chuckle through life’s challenges? Unquestionable.
+            RichLaughify™ is purely for entertainment purposes. We don’t actually teach you how to laugh like a billionaire, but we do encourage you to laugh like you already own the world. RichLaughify™ is not responsible for any unexpected increases in your bank account, social status, or yacht fleet.
           </p>
 
           {/* Additional Branding */}
