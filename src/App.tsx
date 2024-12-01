@@ -1,6 +1,7 @@
 import CountUp from "react-countup";
 import phone from "./assets/phone.png";
 
+import phone2 from "./assets/2.jpg";
 
 function App() {
   return (
@@ -14,9 +15,17 @@ function App() {
           </a>
 
           {/* Download Button */}
-          <button className="px-4 py-2 mt-2 text-sm font-semibold text-white bg-blue-600 transition duration-500 ease-in-out transform rounded-lg md:mt-0 md:ml-4 hover:bg-blue-500 focus:outline-none">
-            Download
-          </button>
+
+          <a
+            href="https://github.com/KJoWu/LaughifyApp"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 mt-2 text-sm font-semibold text-white bg-blue-600 transition duration-500 ease-in-out transform rounded-lg md:mt-0 md:ml-4 hover:bg-blue-500 focus:outline-none"
+          >
+            Download Now!
+          </a>
+
+
         </div>
       </header>
 
@@ -96,7 +105,7 @@ function App() {
                 {
                   title: "🤖 AI-Powered Laugh Coach",
                   description:
-                    "Our cutting-edge AI Opulaugh analyzes and optimizes your laugh, ensuring it resonates with the elite for every occasion. Disclaimer: Results may vary; if your laugh still sounds broke, it might be a personal problem.",
+                    "Our cutting-edge AI Opulaugh™ analyzes and optimizes your laugh, ensuring it resonates with the elite for every occasion. Disclaimer: Results may vary; if your laugh still sounds broke, it might be a personal problem.",
                 },
                 {
                   title: "🎵 Exclusive Sound Effects Library",
@@ -136,7 +145,7 @@ function App() {
             </h1>
             <div className="flex flex-col md:flex-row justify-center items-center gap-6">
               <a
-                href="#"
+                href="https://github.com/KJoWu/LaughifyApp"
                 className="inline-flex items-center px-6 py-3 bg-blue-500 text-white text-sm font-medium rounded-lg shadow-md hover:bg-blue-600 transition duration-300"
               >
                 <img
@@ -146,7 +155,7 @@ function App() {
                 />
               </a>
               <a
-                href="#"
+                href="https://github.com/KJoWu/LaughifyApp"
                 className="inline-flex items-center px-6 py-3 bg-black text-white text-sm font-medium rounded-lg shadow-md hover:bg-gray-800 transition duration-300"
               >
                 <img
@@ -159,120 +168,88 @@ function App() {
           </div>
         </div>
       </section>
-  
-{/* Opulaugh Section */}
-<section className="bg-gradient-to-r from-yellow-300 to-yellow-500 text-black py-24">
-  <div className="container mx-auto px-5 lg:px-20">
-    <div className="text-center mb-12">
-      <h2 className="text-5xl font-extrabold mb-4">Meet Opulaugh™</h2>
-      <p className="text-xl text-gray-900">
-        Your AI-powered coach for mastering the art of a laugh that screams "wealth."
-      </p>
-    </div>
-    <div className="flex flex-wrap items-center">
-      {/* Image */}
-      <div className="w-full md:w-1/2 px-4">
-        <img
-          src="./images/opulaugh.png"
-          alt="Opulaugh AI"
-          className="rounded-lg shadow-lg w-full h-auto"
-        />
-      </div>
-      {/* Content */}
-      <div className="w-full md:w-1/2 px-4">
-        <h3 className="text-3xl font-semibold mb-6">How Opulaugh™ Works</h3>
-        <p className="text-lg text-gray-800 leading-relaxed mb-6">
-          Developed by leading behavioral scientists and elite social engineers, Opulaugh™ analyzes the tonal, rhythmic, and situational aspects of your laugh to help you ascend to a new level of laughter sophistication. Whether it's for networking, commanding a boardroom, or dazzling at galas, Opulaugh™ ensures your laugh is always perfectly on-brand.
-        </p>
-        <ul className="space-y-4">
-          {[
-            {
-              title: "✨ Instant Feedback:",
-              description:
-                "Our real-time AI evaluates your laugh and provides actionable suggestions to refine it.",
-            },
-            {
-              title: "📈 Data-Driven Laugh Insights:",
-              description:
-                "Using advanced algorithms, Opulaugh™ compares your laugh profile to those of real ultra-wealthy individuals.",
-            },
-          ].map((feature, index) => (
-            <li key={index} className="flex items-start">
 
-              <div>
-                <h4 className="text-xl font-semibold">{feature.title}</h4>
-                <p className="text-gray-800">{feature.description}</p>
-              </div>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-    {/* Testimonials */}
-
-    <section className="py-24 bg-gray-100 text-gray-900">
-  <div className="container mx-auto px-5 lg:px-20">
-    <div className="text-center mb-12">
-      <h2 className="text-5xl font-bold">Testimonials</h2>
-      <p className="text-xl text-gray-600 mt-4">
-        At RichLaughify™, we salute your journey to greatness—hear from the world’s newest laughter elites, whose lives have been forever transformed by their non-plebic, elite-level laughs.
-      </p>
-    </div>
-    <div className="flex flex-wrap justify-center">
-      {[
-        {
-          name: "Yachtty 'Monty' Yachtface",
-          role: "Does Not own a Yacht Yet",
-          testimonial:
-            "Before RichLaughify™, my laugh sounded cheap. Now, they call me Yachtface—even though I don’t own a yacht.",
-        },
-        {
-          name: "Derrick 'The Digital Nomad' Jenkins",
-          role: "Freelance Consultant (Currently Working on His Wi-Fi Connection)",
-          testimonial:
-            "Before RichLaughify™, I would cry and consult myself. Until my internet works thatn I would laugh and...",
-        },
-        {
-          name: "Chad 'Crypto King' Ethereum",
-          role: "Crypto Evangelist and Blockchain Enthusiast",
-          testimonial:
-            "After upgrading to the Platinum Package, I performed the HODL Haha at my portfolio, and DodgeCoin surged 50%. I can’t explain it, but it works!",
-        },
-        {
-          name: "Chad 'The Bro' McFlex",
-          role: "Currently Flexing at Planet Fitness",
-          testimonial:
-            "Before RichLaughify™, my laugh was just a grunt. Now, they call me 'The Bro'—and my laugh has become the motivational tool of the year. #HustleHardLaughHarder",
-        },
-        {
-          name: "Ben.",
-          role: "CEO of Nothing (Yet)",
-          testimonial:
-            "I unleashed the 'Can You Please Stop Laughing Laugh' at an incredibly high-stakes meeting, and my boss offered me a promotion if I promised to stop. I’m still in disbelief at how much power my laugh holds 10/10 would recommend!",
-        },
-        {
-          name: "Lana 'The Wellness Guru'",
-          role: "Online Crystal Warrior on TikTok",
-          testimonial:
-            "I performed the 'Cosmic Giggle' during a reading, and my client’s career took off immediately. They gained 200 twitter followers, and they say it’s all because of the vibe I set with my laugh. Namaste, my friends.",
-        },
-      ].map((testimonial, index) => (
-        <div key={index} className="p-4 lg:w-1/3 md:w-1/2">
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden text-center p-6">
-            <h3 className="text-lg font-semibold text-gray-900">
-              {testimonial.name}
-            </h3>
-            <p className="text-gray-500">{testimonial.role}</p>
-            <p className="mt-4 text-gray-600">{testimonial.testimonial}</p>
+      {/* Opulaugh Section */}
+      <section className="bg-gradient-to-b  text-gray-200 bg-black py-24">
+        <div className="container mx-auto px-5 lg:px-20 text-center">
+          <div className="mb-12">
+            <h2 className="text-5xl  first-line:font-extrabold mb-4">Meet Opulaugh™</h2>
+            <p className="text-xl">
+              Your AI-powered coach for mastering the art of a laugh that screams "wealth."
+            </p>
+          </div>
+          {/* Content */}
+          <div className="w-full px-4 mx-auto">
+            <p className="text-lg leading-relaxed">
+              Developed by leading behavioral scientists and elite social engineers, Opulaugh™ is the ultimate AI-powered laugh coach. It evaluates the tonal, rhythmic, and situational aspects of your laugh in real-time, providing instant feedback to refine it. By leveraging data-driven insights, it compares your laugh profile to those of the ultra-wealthy, ensuring it resonates with the elite. Opulaugh™ also offers personalized practice scenarios, from yacht parties to high-stakes investor meetings, so you can perfect your laugh for every occasion and always stay on-brand. With Opulaugh™, laughter isn’t just a response—it’s a strategy.
+            </p>
           </div>
         </div>
-      ))}
-    </div>
-  </div>
-</section>
+      </section>
+
+
+      {/* Testimonials */}
+
+      <section className="py-24 bg-gray-100 bg-gradient-to-b from-gray-800 to-gray-800 text-white py-24">
+        <div className="container mx-auto px-5 lg:px-20">
+          <div className="text-center mb-12">
+            <h2 className="text-5xl font-bold">Testimonials</h2>
+            <p className="text-xl mt-4">
+              At RichLaughify™, we salute your journey to greatness—hear from the world’s newest laughter elites, whose lives have been forever transformed by their non-plebic, elite-level laughs.
+            </p>
+          </div>
+          <div className="flex flex-wrap justify-center">
+            {[
+              {
+                name: "Yachtty 'Monty' Yachtface",
+                role: "Does Not own a Yacht Yet",
+                testimonial:
+                  "Before RichLaughify™, my laugh sounded cheap. Now, they call me Yachtface—even though I don’t own a yacht.",
+              },
+              {
+                name: "Derrick 'The Digital Nomad' Jenkins",
+                role: "Freelance Consultant (Currently Working on His Wi-Fi Connection)",
+                testimonial:
+                  "Before RichLaughify™, I would cry and consult myself. Until my internet works thatn I would laugh and...",
+              },
+              {
+                name: "Chad 'Crypto King' Ethereum",
+                role: "Crypto Evangelist and Blockchain Enthusiast",
+                testimonial:
+                  "After upgrading to the Platinum Package, I performed the HODL Haha at my portfolio, and DodgeCoin surged 50%. I can’t explain it, but it works!",
+              },
+              {
+                name: "Chad 'The Bro' McFlex",
+                role: "Currently Flexing at Planet Fitness",
+                testimonial:
+                  "Before RichLaughify™, my laugh was just a grunt. Now, they call me 'The Bro'—and my laugh has become the motivational tool of the year. #HustleHardLaughHarder",
+              },
+              {
+                name: "Ben.",
+                role: "CEO of Nothing (Yet)",
+                testimonial:
+                  "I unleashed the 'Can You Please Stop Laughing Laugh' at an incredibly high-stakes meeting, and my boss offered me a promotion if I promised to stop. I’m still in disbelief at how much power my laugh holds 10/10 would recommend!",
+              },
+              {
+                name: "Lana 'The Wellness Guru'",
+                role: "Online Crystal Warrior on TikTok",
+                testimonial:
+                  "I performed the 'Cosmic Giggle' during a reading, and my client’s career took off immediately. They gained 200 twitter followers, and they say it’s all because of the vibe I set with my laugh. Namaste, my friends.",
+              },
+            ].map((testimonial, index) => (
+              <div key={index} className="p-4 lg:w-1/3 md:w-1/2">
+                <div className="bg-white rounded-lg shadow-lg overflow-hidden text-center p-6">
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    {testimonial.name}
+                  </h3>
+                  <p className="text-gray-500">{testimonial.role}</p>
+                  <p className="mt-4 text-gray-600">{testimonial.testimonial}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
 
 
