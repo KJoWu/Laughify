@@ -85,99 +85,99 @@ function App() {
         </div>
       </section>
 
-      {/* Features Section */}
+
+
+
+
+
+
+
+
+
       <section className="py-24 bg-gradient-to-b from-gray-900 to-black text-white">
-        <div className="flex-col items-center content-center justify-center">
-          {/*image container */}
-          <div className="flex items-center justify-center">
-            {/* Image */}
-            <div className="mx-10 mb-10 lg:mb-0 flex justify-center">
-              <img
-                src={phone}
-                alt="Features"
-                className="rounded-lg shadow-lg h-[38em] mr-5"
-              />
-            </div>
-
-            {/* Feature List */}
-            <div className="space-y-8 lg:w-[39em]">
-              {[
-                {
-                  title: "🤖 AI-Powered Laugh Coach",
-                  description:
-                    "Our cutting-edge AI Opulaugh™ analyzes and optimizes your laugh, ensuring it resonates with the elite for every occasion. Disclaimer: Results may vary; if your laugh still sounds broke, it might be a personal problem.",
-                },
-                {
-                  title: "🎵 Exclusive Sound Effects Library",
-                  description:
-                    "Amplify your laugh with premium sound effects like: the crisp pop of champagne, roaring applause, or the subtle hum of jet engines—yours for the modest one-time payment of just $200k.",
-                },
-                {
-                  title: "🌟 Learn Premium Elite Laughs",
-                  description:
-                    "Master exclusive laughs like the 'TedTalk Titter,' perfect for asserting intellectual dominance in a room of overachievers; the effortless 'Friday Flex Giggle,' ideal for celebrating a private island purchase (TGIF, right?); and the trending 'I Got Laid off Laugh,' crafted for pretending you’re fine while clutching a $300 avocado toast receipt."
-                },
-                {
-                  title: "📚 Real-Life Scenarios Training",
-                  description:
-                    "Perfect the laugh for every occasion: the 'Crypto Collapse Chuckle' as a tech bro’s 'game-changing NFT' implodes, the 'Etsy Auction Cackle' while outbidding moms for AI-generated bonsai yoga mats, or the 'Blockchain Belly Laugh' to win over investors for your soap startup they definitely don’t understand.",
-                },
-              ].map((feature, index) => (
-                <div key={index}>
-                  <h3 className="text-2xl font-semibold pb-3">{feature.title}</h3>
-                  <p className="text-gray-300">{feature.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-
-
-
-
-
-
-          {/* Download the App */}
-          <div className="mt-12 flex flex-col items-center">
-            <h1 className="text-3xl font-bold mb-6 text-yellow-400">
-              DOWNLOAD RICHLAUGHIFY NOW!
-            </h1>
-            <div className="flex flex-col md:flex-row justify-center items-center gap-6">
-              {/* Google Play Download */}
-              <a
-                href="https://github.com/KJoWu/LaughifyApp"
-                target="_blank"
-                rel="noopener noreferrer"
-                className=""
-              >
-                <img
-                  src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
-                  alt="Google Play"
-                  className="h-[7em]"
-                />
-              </a>
-              {/* App Store Download */}
-              <a
-                href="https://github.com/KJoWu/LaughifyApp"
-                target="_blank"
-                rel="noopener noreferrer"
-                className=""
-              >
-                <img
-                  src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1276560000&h=7e7b68fad19738b5649a1bfb78ff46e9"
-                  alt="App Store"
-                  className="h-[4.8em]"
-                />
-              </a>
-            </div>
-          </div>
-
-
-
-
-
+  <div className="container mx-auto px-5 lg:px-20">
+    <h2 className="text-3xl font-bold mb-12 text-center">RichLaughify™ Features</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+      {[
+        {
+          title: "🤖 AI-Powered Laugh Coach",
+          vid: "https://roukwgbjfcrickanmhcd.supabase.co/storage/v1/object/public/laughify_assets/2.mp4",
+          description:
+            "Our cutting-edge AI Opulaugh™ analyzes and optimizes your laugh, ensuring it resonates with the elite for every occasion. Disclaimer: Results may vary; if your laugh still sounds broke, it might be a personal problem.",
+        },
+        {
+          title: "📊 Track Your Laugh Status",
+          vid: "https://roukwgbjfcrickanmhcd.supabase.co/storage/v1/object/public/laughify_assets/3.mp4",
+          description:
+            "Keep tabs on your laugh evolution with our RichLaughify™ Profile Page. Track how many elite laughs you've delivered, monitor your laugh stats, and unlock exclusive milestones. Each laugh you perform contributes to your generational wealth energy status—because success is measurable, even in laughs!",
+        },
+        {
+          title: "🌟 Learn Premium Elite Laughs",
+          vid: "https://roukwgbjfcrickanmhcd.supabase.co/storage/v1/object/public/laughify_assets/4.mp4",
+          description:
+            "Master exclusive laughs like the 'TedTalk Titter,' perfect for asserting intellectual dominance in a room of overachievers; the effortless 'Friday Flex Giggle,' ideal for celebrating a private island purchase (TGIF, right?); and the trending 'I Got Laid off Laugh,' crafted for pretending you’re fine while clutching a $300 avocado toast receipt.",
+        },
+        {
+          title: "📚 Real-Life Scenarios Training",
+          vid: "https://roukwgbjfcrickanmhcd.supabase.co/storage/v1/object/public/laughify_assets/1.mp4",
+          description:
+            "Perfect the laugh for every occasion: the 'Crypto Collapse Chuckle' as a tech bro’s 'game-changing NFT' implodes, the 'Etsy Auction Cackle' while outbidding moms for AI-generated bonsai yoga mats, or the 'Blockchain Belly Laugh' to win over investors for your soap startup they definitely don’t understand.",
+        },
+      ].map((feature, index) => (
+        <div key={index} className="flex flex-col items-center text-center space-y-4">
+          {/* Video */}
+          <video
+            src={feature.vid}
+            className="w-64 rounded-lg shadow-lg"
+            autoPlay
+            muted
+            loop
+          ></video>
+          {/* Title */}
+          <h3 className="text-2xl font-semibold">{feature.title}</h3>
+          {/* Description */}
+          <p className="text-gray-300">{feature.description}</p>
         </div>
-      </section>
+      ))}
+    </div>
+
+    {/* Download the App */}
+    <div className="mt-12 flex flex-col items-center">
+      <h1 className="text-3xl font-bold mb-6 text-yellow-400">
+        DOWNLOAD RICHLAUGHIFY NOW!
+      </h1>
+      <div className="flex flex-col md:flex-row justify-center items-center gap-6">
+        {/* Google Play Download */}
+        <a
+          href="https://github.com/KJoWu/LaughifyApp"
+          target="_blank"
+          rel="noopener noreferrer"
+          className=""
+        >
+          <img
+            src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
+            alt="Google Play"
+            className="h-[7em]"
+          />
+        </a>
+        {/* App Store Download */}
+        <a
+          href="https://github.com/KJoWu/LaughifyApp"
+          target="_blank"
+          rel="noopener noreferrer"
+          className=""
+        >
+          <img
+            src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1276560000&h=7e7b68fad19738b5649a1bfb78ff46e9"
+            alt="App Store"
+            className="h-[4.8em]"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Opulaugh Section */}
       <section className="bg-gradient-to-b  text-gray-200 bg-black pb-24">
