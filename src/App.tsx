@@ -137,40 +137,50 @@ function App() {
 
 
 
-
-          {/* Download le App */}
+          {/* Download the App */}
           <div className="mt-12 flex flex-col items-center">
             <h1 className="text-3xl font-bold mb-6 text-yellow-400">
               DOWNLOAD RICHLAUGHIFY NOW!
             </h1>
             <div className="flex flex-col md:flex-row justify-center items-center gap-6">
+              {/* Google Play Download */}
               <a
                 href="https://github.com/KJoWu/LaughifyApp"
-                className="inline-flex items-center px-6 py-3 bg-blue-500 text-white text-sm font-medium rounded-lg shadow-md hover:bg-blue-600 transition duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=""
               >
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Get_it_on_Google_play.svg/512px-Get_it_on_Google_play.svg.png"
+                  src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
                   alt="Google Play"
-                  className="h-10"
+                  className="h-[7em]"
                 />
               </a>
+              {/* App Store Download */}
               <a
                 href="https://github.com/KJoWu/LaughifyApp"
-                className="inline-flex items-center px-6 py-3 bg-black text-white text-sm font-medium rounded-lg shadow-md hover:bg-gray-800 transition duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=""
               >
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Download_on_the_App_Store_Badge.svg/512px-Download_on_the_App_Store_Badge.svg.png"
+                  src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1276560000&h=7e7b68fad19738b5649a1bfb78ff46e9"
                   alt="App Store"
-                  className="h-10"
+                  className="h-[4.8em]"
                 />
               </a>
             </div>
           </div>
+
+
+
+
+
         </div>
       </section>
 
       {/* Opulaugh Section */}
-      <section className="bg-gradient-to-b  text-gray-200 bg-black py-24">
+      <section className="bg-gradient-to-b  text-gray-200 bg-black pb-24">
         <div className="container mx-auto px-5 lg:px-20 text-center">
           <div className="mb-12">
             <h2 className="text-5xl  first-line:font-extrabold mb-4">Meet Opulaugh™</h2>
@@ -190,7 +200,7 @@ function App() {
 
       {/* Testimonials */}
 
-      <section className="py-24 bg-gray-100 bg-gradient-to-b from-gray-800 to-gray-800 text-white py-24">
+      <section className="py-24 bg-gray-100 bg-gradient-to-b from-gray-800 to-gray-800 text-white">
         <div className="container mx-auto px-5 lg:px-20">
           <div className="text-center mb-12">
             <h2 className="text-5xl font-bold">Testimonials</h2>
