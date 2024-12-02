@@ -289,7 +289,7 @@ function App() {
         <div className="px-5 text-center">
           {/* Author Attribution */}
           <p className="text-md text-gray-400 mb-4">
-            The app, the website and the video was created purely for FUNZIES by <a href="https://kimberlywu.com" className="text-yellow-300">Kimberly Wu</a>.
+            The app, the website and the video were created purely for FUNZIES by <a href="https://kimberlywu.com" className="text-yellow-300">Kimberly Wu</a>.
           </p>
 
           <h2 className="text-lg font-semibold text-yellow-300">
