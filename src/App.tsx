@@ -307,7 +307,7 @@ function App() {
               rel="noopener noreferrer"
               className="inline-flex items-center px-5 py-3 text-sm font-medium text-yellow-300 border border-yellow-300 rounded hover:bg-yellow-500 hover:text-gray-900 transition duration-300"
             >
-              ☕ Buy Me a Coffee so I can make transform this app into reality!
+              ☕ Buy Me a Coffee so I can transform this app into reality!
             </a>
           </div>
 
