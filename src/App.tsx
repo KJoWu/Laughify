@@ -96,7 +96,7 @@ function App() {
           {/* Download the App */}
           <div className="mt-12 flex flex-col items-center">
             <h1 className="text-3xl font-bold mb-6 text-yellow-400">
-              DOWNLOAD RICHLAUGHIFY NOW!
+              DOWNLOAD RICH LAUGHIFY NOW!
             </h1>
             <div className="flex flex-col md:flex-row justify-center items-center gap-6">
               {/* Google Play Download */}
