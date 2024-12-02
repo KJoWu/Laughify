@@ -1,7 +1,4 @@
 import CountUp from "react-countup";
-import phone from "./assets/phone.png";
-
-import phone2 from "./assets/2.jpg";
 
 function App() {
   return (
