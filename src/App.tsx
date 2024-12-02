@@ -42,7 +42,7 @@ function App() {
           <div className="flex justify-center">
             <iframe
               className="w-[70em] h-64 sm:h-[40em]"
-              src="https://www.youtube.com/embed/wZMZdQzoQgo?autoplay=1&mute=1"
+              src="https://www.youtube.com/embed/MRzpy4sC7Go?autoplay=1"
               title="RichLaughify™ Promo"
               frameBorder="0"
               allow="autoplay; encrypted-media"
@@ -96,7 +96,44 @@ function App() {
 
       <section className="py-24 bg-gradient-to-b from-gray-900 to-black text-white">
   <div className="container mx-auto px-5 lg:px-20">
+        {/* Download the App */}
+        <div className="mt-12 flex flex-col items-center">
+      <h1 className="text-3xl font-bold mb-6 text-yellow-400">
+        DOWNLOAD RICHLAUGHIFY NOW!
+      </h1>
+      <div className="flex flex-col md:flex-row justify-center items-center gap-6">
+        {/* Google Play Download */}
+        <a
+          href="https://github.com/KJoWu/LaughifyApp"
+          target="_blank"
+          rel="noopener noreferrer"
+          className=""
+        >
+          <img
+            src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
+            alt="Google Play"
+            className="h-[7em]"
+          />
+        </a>
+        {/* App Store Download */}
+        <a
+          href="https://github.com/KJoWu/LaughifyApp"
+          target="_blank"
+          rel="noopener noreferrer"
+          className=""
+        >
+          <img
+            src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1276560000&h=7e7b68fad19738b5649a1bfb78ff46e9"
+            alt="App Store"
+            className="h-[4.8em]"
+          />
+        </a>
+      </div>
+    </div>
+    
     <h2 className="text-3xl font-bold mb-12 text-center">RichLaughify™ Features</h2>
+
+    
     <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
       {[
         {
@@ -141,61 +178,51 @@ function App() {
       ))}
     </div>
 
-    {/* Download the App */}
-    <div className="mt-12 flex flex-col items-center">
-      <h1 className="text-3xl font-bold mb-6 text-yellow-400">
-        DOWNLOAD RICHLAUGHIFY NOW!
-      </h1>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-6">
-        {/* Google Play Download */}
-        <a
-          href="https://github.com/KJoWu/LaughifyApp"
-          target="_blank"
-          rel="noopener noreferrer"
-          className=""
-        >
-          <img
-            src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
-            alt="Google Play"
-            className="h-[7em]"
-          />
-        </a>
-        {/* App Store Download */}
-        <a
-          href="https://github.com/KJoWu/LaughifyApp"
-          target="_blank"
-          rel="noopener noreferrer"
-          className=""
-        >
-          <img
-            src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1276560000&h=7e7b68fad19738b5649a1bfb78ff46e9"
-            alt="App Store"
-            className="h-[4.8em]"
-          />
-        </a>
-      </div>
+
+  </div>
+</section>
+
+
+{/* Opulaugh Section */}
+{/* Opulaugh Section */}
+<section className="bg-gradient-to-b text-gray-200 bg-black pb-24">
+  <div className="container mx-auto px-5 lg:px-20 text-center">
+    <div className="mb-12">
+      <h2 className="text-5xl font-extrabold mb-4">Meet Opulaugh™</h2>
+      <p className="text-xl">
+        Your AI-powered coach for mastering the art of a laugh that screams "wealth."
+      </p>
+    </div>
+    {/* Content */}
+    <div className="w-full px-4 mx-auto">
+      <p className="text-lg leading-relaxed mb-6">
+        Developed by leading behavioral scientists and elite social engineers, 
+        Opulaugh™ is the ultimate AI-powered laugh coach. It evaluates the tonal, 
+        rhythmic, and situational aspects of your laugh in real-time, providing 
+        instant feedback to refine it. Leveraging data-driven insights, it compares 
+        your laugh profile to those of the ultra-wealthy, ensuring it resonates with 
+        the elite.
+      </p>
+      <p className="text-lg leading-relaxed mb-6">
+        Opulaugh™ doesn’t stop at coaching—it introduces the concept of 
+        <strong className="text-green-400"> Laugh Market Value (LMV)</strong>. 
+        Each laugh you share, react to, or receive contributes to your 
+        <strong className="text-green-400"> LMV</strong> score—a dynamic measure of 
+        your laughter’s impact and exclusivity. LMV tracks how “rich” your laugh 
+        feels based on tone, timing, and audience engagement, encouraging you to 
+        perfect a signature laugh that commands attention and leaves a lasting impression.
+      </p>
+      <p className="text-lg leading-relaxed">
+        Opulaugh™ also offers personalized practice scenarios—from yacht parties 
+        to high-stakes investor meetings—so you can refine your laugh for every 
+        occasion and always stay on-brand. With Opulaugh™, laughter isn’t just a 
+        response—it’s a strategy.
+      </p>
     </div>
   </div>
 </section>
 
 
-      {/* Opulaugh Section */}
-      <section className="bg-gradient-to-b  text-gray-200 bg-black pb-24">
-        <div className="container mx-auto px-5 lg:px-20 text-center">
-          <div className="mb-12">
-            <h2 className="text-5xl  first-line:font-extrabold mb-4">Meet Opulaugh™</h2>
-            <p className="text-xl">
-              Your AI-powered coach for mastering the art of a laugh that screams "wealth."
-            </p>
-          </div>
-          {/* Content */}
-          <div className="w-full px-4 mx-auto">
-            <p className="text-lg leading-relaxed">
-              Developed by leading behavioral scientists and elite social engineers, Opulaugh™ is the ultimate AI-powered laugh coach. It evaluates the tonal, rhythmic, and situational aspects of your laugh in real-time, providing instant feedback to refine it. By leveraging data-driven insights, it compares your laugh profile to those of the ultra-wealthy, ensuring it resonates with the elite. Opulaugh™ also offers personalized practice scenarios, from yacht parties to high-stakes investor meetings, so you can perfect your laugh for every occasion and always stay on-brand. With Opulaugh™, laughter isn’t just a response—it’s a strategy.
-            </p>
-          </div>
-        </div>
-      </section>
 
 
       {/* Testimonials */}
@@ -210,24 +237,6 @@ function App() {
           </div>
           <div className="flex flex-wrap justify-center">
             {[
-              {
-                name: "Yachtty 'Monty' Yachtface",
-                role: "Does Not own a Yacht Yet",
-                testimonial:
-                  "Before RichLaughify™, my laugh sounded cheap. Now, they call me Yachtface—even though I don’t own a yacht.",
-              },
-              {
-                name: "Derrick 'The Digital Nomad' Jenkins",
-                role: "Freelance Consultant (Currently Working on His Wi-Fi Connection)",
-                testimonial:
-                  "Before RichLaughify™, I would cry and consult myself. Until my internet works thatn I would laugh and...",
-              },
-              {
-                name: "Chad 'Crypto King' Ethereum",
-                role: "Crypto Evangelist and Blockchain Enthusiast",
-                testimonial:
-                  "After upgrading to the Platinum Package, I performed the HODL Haha at my portfolio, and DodgeCoin surged 50%. I can’t explain it, but it works!",
-              },
               {
                 name: "Chad 'The Bro' McFlex",
                 role: "Currently Flexing at Planet Fitness",
